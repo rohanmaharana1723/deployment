@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load model, encoder, and scaler
-model = pickle.load(open("car_price_model.pkl", "rb"))
+model = pickle.load(open("model.pkl", "rb"))
 encoder = pickle.load(open("encoder.pkl", "rb"))
 scaler = pickle.load(open("scaler.pkl", "rb"))
 
